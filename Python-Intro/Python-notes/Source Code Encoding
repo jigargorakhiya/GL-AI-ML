@@ -1,0 +1,76 @@
+Source Code Encoding
+
+- default UTF-8 Encoding
+- To change, # -*- coding: encoding -*-
+- Ex: # -*- coding: cp1252 -*-
+- One exception to the first line rule is when the source code starts with a UNIX “shebang” line. In this case, the encoding declaration should be added as the second line of the file. 
+- For example:
+    #!/usr/bin/env python3
+    # -*- coding: cp1252 -*-
+
+
+Floor division 
+- represented by "//"
+- it will give only integer part. 
+-  Ex: 17 // 3 == 5 (instead of 5.66 as it will give only ineger part)
+
+
+In interactive mode, the last printed expression is assigned to the variable _. 
+Ex: 
+>>> "jigar"
+'jigar'
+>>> _
+'jigar'
+
+Supported Data Types
+- Int, Float, Decimal, Fraction, Complex Numbers ( e.g. 3+5j )
+
+If you don’t want characters prefaced by \ to be interpreted as special characters, you can use raw strings by adding an r before the first quote:
+>>> print('C:\some\name')  # here \n means newline!
+C:\some
+ame
+>>> print(r'C:\some\name')  # note the r before the quote
+C:\some\name
+
+-------
+List:
+-------
+- Lists also support operations like concatenation:
+ex: squares + [36, 49, 64, 81, 100]
+    [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+- Append:
+>>>  cubes.append(216)  # add the cube of 6
+>>> cubes.append(7 ** 3)  # and the cube of 7
+>>> cubes
+[1, 8, 27, 64, 125, 216, 343]
+
+
+---------
+enumerate
+---------
+
+seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+list(enumerate(seasons))
+[(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
+list(enumerate(seasons, start=1))
+[(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
+
+---------
+zip
+---------
+Convert matrix row to columns
+
+matrix = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12],
+]
+
+list(zip(*matrix))
+
+--------------
+File read
+--------------
+
+f.seek(5)

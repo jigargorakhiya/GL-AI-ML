@@ -1,0 +1,29 @@
+Statisitics
+
+---------------------
+Sample Distribution:
+---------------------
+- https://www.youtube.com/watch?v=hqiMcHqlZ4s
+- https://www.cliffsnotes.com/study-guides/statistics/sampling/populations-samples-parameters-and-statistics
+
+
+---------------------
+Hyphothesis
+---------------------
+- Hypothesis is a statement, assumption or claim about the value of the parameter (mean, variance, median etc.).
+- Two Types
+    1. Null Hyphothesis:
+        - The null hypothesis is the hypothesis to be tested for possible rejection under the assumption that it is true. 
+        - The concept of the null is similar to innocent until proven guilty We assume innocence until we have enough evidence to prove that a suspect is guilty.
+        -  It is denoted by H0.
+    2. Alternate Hyphothesis
+        - The alternative hypothesis complements the Null hypothesis. 
+        -  It is denoted by H1.
+ 
+ - Example:
+    A soap company claims that it’s product kills on an average 99% of the germs. To test the claim of this company we will formulate the null and alternate hypothesis.
+    
+    Null Hypothesis(H0): Average =99%
+    Alternate Hypothesis(H1): Average is not equal to 99%.
+
+    Note: The thumb rule is that statement containing equality is the null hypothesis.
